@@ -1,6 +1,7 @@
 const express=require("express");
 const bodyParser=require("body-parser");
 const https=require("https");
+const hostname="0.0.0.0";
 const app=express();
 
 app.set('view engine','ejs');
@@ -33,6 +34,6 @@ app.post("/",function(req,res){
     })
 });
 
-app.listen(3000,function(){
+app.listen(3000,hostname,function(){
     console.log("server is started on port 3000.");
 });
