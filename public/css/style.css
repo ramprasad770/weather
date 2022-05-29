@@ -52,7 +52,7 @@ button:hover{
     color:black;
     border-radius: 5px;
 }
-footer{
+.footer{
     text-align: center;
     color: white;
     height: 150px;
@@ -134,7 +134,7 @@ a:hover{
         color:black;
         border-radius: 5px;
     }
-    footer{
+    .footer{
         text-align: center;
         color: white;
         height: 150px;
