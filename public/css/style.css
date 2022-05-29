@@ -101,6 +101,7 @@ a:hover{
         padding: 0;
         margin:0;
         padding-top: 50px;
+        margin-bottom:auto;
     }
     input[type=text]{
         text-align: center;
@@ -141,7 +142,6 @@ a:hover{
         background-color: black;
         padding-top: 33px;
         width: 100%;
-        margin-top:auto;
         display: block;
         font-size: small;
     }
