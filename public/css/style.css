@@ -143,6 +143,7 @@ a:hover{
         width: 100%;
         display: block;
         font-size: small;
+        bottom:0;
         position:static;
     }
     
