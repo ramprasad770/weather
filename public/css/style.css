@@ -95,7 +95,7 @@ a:hover{
         background-color: rgb(13, 227, 238);
         border-radius: 10px;
     }
-    #div{
+    div{
         text-align: center;
         display: block;
         padding: 0;
@@ -143,6 +143,7 @@ a:hover{
         width: 100%;
         display: block;
         font-size: small;
+        position:static;
     }
     
     a{
